@@ -10,7 +10,9 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    highline (2.0.3)
+    abbrev (0.1.2)
+    highline (3.0.0)
+      abbrev
     i18n (0.8.1)
     minitest (5.14.1)
     pbf_parser (0.2.1)
