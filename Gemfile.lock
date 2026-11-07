@@ -10,10 +10,14 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    drb (2.2.3)
     highline (2.0.3)
     i18n (0.8.1)
-    minitest (5.14.1)
+    minitest (6.1.0)
+      drb (~> 2.0)
+      prism (>= 1.5, < 3)
     pbf_parser (0.2.1)
+    prism (2.1.0)
     rake (13.0.1)
     rgeo (0.6.0)
     rgeo-geojson (0.4.3)
